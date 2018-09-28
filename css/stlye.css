@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+*{
+	margin:0;
+	padding:0;
+}
+
+/*header*/
+
+body{
+	height:100%;
+	width:100%;
+}
+
+.estatico{
+	position:fixed;
+	background-color:indigo;
+	height: 60px;
+	width: 100%;
+	color: aliceblue;
+	font-size: 2.5em;
+	text-align: center;
+	font-family: 'Notable', sans-serif;
+}
+
+.banner{
+	background-image: url(../images/steven-roe-1076654-unsplash.jpg);
+	height:500px;
+	/*alto 100%*/
+	/*
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	*/
+	/*ancho 100%*/
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+.icono{
+	width: 33%;
+	float: left;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icono p{
+	text-align:center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 18px;
+}
+
+.contenedor{
+	margin-top: 50px;
+}
